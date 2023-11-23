@@ -3,3 +3,31 @@
 <h3 style="text-align: center;">Theme: Harnessing AI for Africa’s Development.<h3>
 <br>
 <h3 style="text-align: center;">Registration Deadline: <span style="color: red">January 31, 2024</span><h3>
+
+<h3 style="text-align: center;">[See Eligibility Requirements | ](#eligibility)[ Register Your Team | ](#registration)<h3>
+<br>
+h1 eligibility
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+h1 registration 
