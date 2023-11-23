@@ -1,1 +1,1 @@
-# 2024 African Technology Forum Student Challenge
+<h1 style="text-align: center;">2024 African Technology Forum Student Challenge</h1>
