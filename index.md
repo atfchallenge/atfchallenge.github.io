@@ -4,7 +4,7 @@
 <br>
 <h3 style="text-align: center;">Registration Deadline: <span style="color: red">January 31, 2024</span></h3>
 
-<div align="center"><a href=""><h3>See Eligibility Requirements</a> | 
+<div align="center"><h3><a href="">See Eligibility Requirements</a> | 
 <a href="">Register Your Team</a></h3></div>
 
 
