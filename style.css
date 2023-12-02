@@ -158,3 +158,117 @@ a {
     height: 400px;
 }
 
+
+
+.participate {
+    height: 100vh;
+    /* border: 1px solid black; */
+    /* background-color: antiquewhite; */
+    margin-top: 2%;
+    /* display: inline-flex; */
+    padding: 25.5px 20px;
+}
+
+.intro {
+    height: 30%;
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+
+#intro-head {
+    color: #070707;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.intro-boby {
+    color: var(--body, #4E4E4E);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: left;
+    display: inline;
+    line-height: 1.2;
+}
+
+.part-left-body {
+    width: 50%;
+    height: 63%;
+    /* border: 1px solid black; */
+    /* background-color: cadetblue; */
+    /* display: inline-block; */
+    float: left;
+}
+
+.part-right-body {
+    width: 49.6%;
+    height: 63%;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    float: right;
+}
+
+h3 {
+    display: inline-flex;
+    /* border: 2px solid black; */
+    margin: 15px 0px 15px 0px;
+    font-size: 30px;
+}
+
+h5 {
+    color: var(--heading-2, #323232);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    display: inline-flex;
+    /* border: 1px solid black; */
+    margin:20px 0px 0px 0px;
+}
+
+.part-left-body img {
+    width: 24px;
+    height: 24px;
+}
+
+.part-left-body p {
+    /* border: 1px solid black; */
+    line-height: 1.2;
+}
+
+.part-body-headers {
+    /* border: 1px solid black; */
+    /* background-color: chartreuse; */
+}
+
+.ellipse {
+    width: 20px;
+    height: 20px;
+    fill: #FFB516;
+    display: inline-flex;
+    /* border: 1px solid black; */
+}
+
+#atf {
+    color: #FD1C13;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.part-right-body p {
+    /* border: 1px solid black; */
+    line-height: 1.2;
+    display: inline-flex
+}
