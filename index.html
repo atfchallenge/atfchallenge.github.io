@@ -21,33 +21,35 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" href="./imgs/ATF_1-transformed.png">
 </head>
-<body class="px-[90px] py-[50px] border-2 border-red-600 max-w-screen-xl mx-auto">
-  <header id="navbar" class="h-[60px] flex items-center justify-between border border-blue-600">
-    <div id="nbar-img" class="border border-green-600">
-      <img src="./imgs/ATF 1.svg" alt="ATF Logo">            
-    </div>
-    <nav class="borde border-blue-600 font-medium text-black flex items-center justify-between gap-[80px]">
-      <a href="#participate">Participate</a>
-      <a href="#purpose">About Us</a>
-      <a href="#sponsors">Sponsors</a>
-    </nav>
-  </header>
-
-  <section id="home-section">
-    <div id="home-left">
-      <h1>ATF Tech <br> <span id="challenge">Challenge</span></h1>
-      <p>with suppiort from <span id="openai">OpenAI</span> foundation</p>
-      <pre id="theme">Theme:  Harnessing AI For Africa's Development</pre>
-
-      <a href="#">
-          <button id="learn-more">Learn More</button>
-      </a>
-    </div>
-
-    <div id="home-right">
-        <img id="home-img" src="./imgs/Light, Metallic.png" alt="light metallic image">
-    </div>
-  </section>
+<body class="border-2 border-red-600 max-w-screen-xl mx-auto">
+  <div class="bg-yellow px-[90px] py-[50px]">
+    <header id="navbar" class="h-[60px] flex items-center justify-between">
+      <div id="nbar-img" class="border border-green-600">
+        <img src="./imgs/ATF 1.svg" alt="ATF Logo">            
+      </div>
+      <nav class="borde border-blue-600 font-medium text-black flex items-center justify-between gap-[80px]">
+        <a href="#participate">Participate</a>
+        <a href="#purpose">About Us</a>
+        <a href="#sponsors">Sponsors</a>
+      </nav>
+    </header>
+  
+    <section id="home-section" class="pt-[100px] pb-[25px] flex items-cente justify-between">
+      <div id="home-left" class="home-left relative flex flex-col justify-start">
+        <h1 class="font-bold text-[96px]/[96px] text-black">ATF Tech <br><span class="text-violet">Challenge</span></h1>
+        <p class="support mt-3 text-[24px]/[35px] underline underline-offset-2 decoration-[1.5px]">with support from <span class="text-violet">OpenAI</span> foundation</p>
+        <p class="theme leading-[21.78px] font-medium mt-2 text-green">Theme: Harnessing AI For Africa's Development</p>
+  
+        <a href="#" class="mt-auto flex items-center justify-center text-white bg-violet inline-block w-[170px] h-[50px]">
+            Learn More
+        </a>
+      </div>
+  
+      <div id="home-right" class="flex items-center justify-center rounded-2xl w-[535px] h-[376px] border-2">
+          <img id="home-img" src="./imgs/Light, Metallic.png" alt="light metallic image">
+      </div>
+    </section>
+  </div>
 
     <div id="participate">
         <div id="paticip-intro">
