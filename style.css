@@ -26,12 +26,14 @@ body {
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
+
 }
 
-html {
+.body-font {
   color: #4e4e4e;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
+  background: #f1f2f5;
 }
 
 .home-left h1,
@@ -41,4 +43,8 @@ html {
 
 .home-left .theme {
   font-family: 'Inter', sans-serif;
+}
+
+p {
+  text-justify: inter-word;
 }
