@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>ATF Challenge</title>
-    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
-    <link rel="icon" href="./imgs/ATF_1-transformed.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            yellow: '#f5f5dc',
+            violet: '#6331f1',
+            green: '#0CA980',
+          }
+        }
+      }
+    }
+  </script>
+  <title>ATF Challenge</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="icon" href="./imgs/ATF_1-transformed.png">
 </head>
-<body class="border-2 border-red-600 max-w-screen-xl mx-auto">
-    <div id="navbar" class="border border-blue-600">
-        <div id="nbar-img">
-            <img src="./imgs/ATF_1-transformed.png" alt="ATF Logo">            
-        </div>
-        <div class="nbar-links">
-            <a href="#participate">Participate</a>
-            <a href="#purpose">About Us</a>
-            <a href="#sponsors">Sponsors</a>
-        </div>
+<body class="px-[90px] py-[50px] border-2 border-red-600 max-w-screen-xl mx-auto">
+  <header id="navbar" class="h-[60px] flex items-center justify-between border border-blue-600">
+    <div id="nbar-img" class="border border-green-600">
+      <img src="./imgs/ATF 1.svg" alt="ATF Logo">            
     </div>
-    <div id="home-section">
-        <div id="home-left">
-            <h1>ATF Tech <br> <span id="challenge">Challenge</span></h1>
-            <p>with suppiort from <span id="openai">OpenAI</span> foundation</p>
-            <pre id="theme">Theme:  Harnessing AI For Africa's Development</pre>
+    <nav class="borde border-blue-600 font-medium text-black flex items-center justify-between gap-[80px]">
+      <a href="#participate">Participate</a>
+      <a href="#purpose">About Us</a>
+      <a href="#sponsors">Sponsors</a>
+    </nav>
+  </header>
 
-            <a href="#">
-                <button id="learn-more">Learn More</button>
-            </a>
-            </div>
+  <section id="home-section">
+    <div id="home-left">
+      <h1>ATF Tech <br> <span id="challenge">Challenge</span></h1>
+      <p>with suppiort from <span id="openai">OpenAI</span> foundation</p>
+      <pre id="theme">Theme:  Harnessing AI For Africa's Development</pre>
 
-        <div id="home-right">
-            <img id="home-img" src="./imgs/Light, Metallic.png" alt="light metallic image">
-        </div>
+      <a href="#">
+          <button id="learn-more">Learn More</button>
+      </a>
     </div>
+
+    <div id="home-right">
+        <img id="home-img" src="./imgs/Light, Metallic.png" alt="light metallic image">
+    </div>
+  </section>
 
     <div id="participate">
         <div id="paticip-intro">
