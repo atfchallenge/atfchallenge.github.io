@@ -45,6 +45,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-p {
+p.text-justify {
   text-justify: inter-word;
 }
