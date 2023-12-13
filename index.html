@@ -21,94 +21,95 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" href="./imgs/ATF_1-transformed.png">
 </head>
-<body class="body-font shadow-xl max-w-screen-xl mx-auto">
+<body id="body-font" class="body-font shadow-xl max-w-screen-xl mx-auto">
+
   <!-- hero or home section -->
-  <div class="bg-yellow px-[90px] py-[50px]">
+  <div class="bg-yellow py-[50px] px-[1rem] md:px-[40px] lg:px-[90px]">
     <header id="navbar" class="h-[60px] flex items-center justify-between">
       <div>
         <img src="./imgs/ATF 1.svg" alt="ATF Logo">            
       </div>
-      <nav class="borde border-blue-600 font-medium text-black flex items-center justify-between gap-[80px]">
+      <nav class="border border-blue-600 font-medium text-black flex items-center justify-between text-[1rem] md:text-[18px] gap-[2rem] sm:gap-[80px]">
         <a href="#participate">Participate</a>
-        <a href="#purpose">About Us</a>
+        <a href="#about-us">About Us</a>
         <a href="#sponsors">Sponsors</a>
       </nav>
     </header>
   
-    <section id="home-section" class="pt-[100px] pb-[25px] flex items-cente justify-between">
+    <section id="home-section" class="pt-[100px] pb-[25px] flex flex-col sm:flex-row  items-cente justify-between gap-6">
       <div id="home-left" class="home-left relative flex flex-col justify-start">
-        <h1 class="font-bold text-[96px]/[96px] text-black">ATF Tech <br><span class="text-violet">Challenge</span></h1>
-        <p class="support mt-3 text-[24px]/[35px] underline underline-offset-2 decoration-[1.5px]">with support from <span class="text-violet">OpenAI</span> foundation</p>
-        <p class="theme leading-[21.78px] font-medium mt-2 text-green">Theme: Harnessing AI For Africa's Development</p>
+        <h1 class="font-bold text-[72px]/[72px] md:text-[96px]/[96px] text-black">ATF Tech <br><span class="text-violet">Challenge</span></h1>
+        <p class="support mt-3 text:[20px]/[28px] md:text-[24px]/[35px] underline underline-offset-2 decoration-[1.5px]">with support from <span class="text-violet">OpenAI</span> foundation</p>
+        <p class="theme leading-[21.78px] md:text-[18px]/[18px] font-medium mt-2 text-green">Theme: Harnessing AI For Africa's Development</p>
   
-        <a href="#" class="mt-auto flex items-center justify-center text-white bg-violet inline-block w-[170px] h-[50px]">
+        <a href="#learn-more" class="mt-auto flex items-center justify-center text-white bg-violet inline-block w-[170px] h-[50px]">
           Learn More
         </a>
       </div>
   
-      <div id="home-right" class="flex items-center justify-center rounded-2xl w-[535px] h-[376px] border-2">
+      <div id="home-right" class="flex items-center justify-center rounded-2xl max-w-[535px] h-[376px] border-2">
           <img id="home-img" src="./imgs/Light, Metallic.png" alt="light metallic image">
       </div>
     </section>
   </div>
 
   <!-- About the challenge section -->
-  <div class="px-[90px] py-[20px] bg-[#f2f4f8]">
+  <div class="py-[20px] bg-[#f2f4f8] px-[1rem] md:px-[40px] lg:px-[90px]">
     <section id="participate" class="flex flex-col gap-6">
       <div id="paticip-intro">
-        <h2 class="py-[10px] text-[32px]/[48px] font-semibold text-center text-black">About The Challenge</h2>
-        <p class="text-[18]/[27px] text-justify font-[400] break-normal">Thank you for expressing your interest in this challenge! We are thrilled to have you on board as we embark on this exciting journey of innovation and collaboration in the world of AI technology</p>
-        <p class="text-[18]/[27px] text-justify mt-[10px]">African Technology Forum Student challenge  is not just a competition; it's an opportunity to push the boundaries of what's possible in AI.  this challenge is designed for students to bring together minds from diverse backgrounds to tackle real-world problems and create meaningful solutions in the field health, energy and other sector in africa.</p>
+        <h2 class="py-[10px] text-[24px]/[30px] md:text-[32px]/[48px] font-semibold text-center text-black">About The Challenge</h2>
+        <p class="md:text-[18px]/[27px] text-justify font-[400] break-normal">Thank you for expressing your interest in this challenge! We are thrilled to have you on board as we embark on this exciting journey of innovation and collaboration in the world of AI technology</p>
+        <p class="md:text-[18px]/[27px] text-justify mt-[10px]">African Technology Forum Student challenge  is not just a competition; it's an opportunity to push the boundaries of what's possible in AI.  this challenge is designed for students to bring together minds from diverse backgrounds to tackle real-world problems and create meaningful solutions in the field health, energy and other sector in africa.</p>
       </div>
 
-      <div class="flex gap-[20px]">
-        <div class="w-1/2 flex flex-col gap-4">
-          <h2 class="text-black text-[32px]/[48px] font-[600]">Why Participate?</h2>
+      <div class="flex gap-[20px] flex-col sm:flex-row">
+        <div class="sm:w-1/2 flex flex-col gap-4">
+          <h2 class="text-black text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">Why Participate?</h2>
           <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-2">
               <div class="flex items-center justify-start gap-[12px]">
                 <img src="./imgs/Bezier.svg">
-                <h4 class="text-[24px]/[36px]">Skill Development</h4>
+                <h4 class="text-[20px]/[28px] md:text-[24px]/[36px]">Skill Development</h4>
               </div>
-              <p class="text-[18px]/[27px] text-justify">Sharpen your skills and gain hands-on experience in [tech domain]. The challenges posed will stretch your creativity and problem-solving abilities.</p>
+              <p class="md:text-[18px]/[27px] text-justify">Sharpen your skills and gain hands-on experience in [tech domain]. The challenges posed will stretch your creativity and problem-solving abilities.</p>
             </div>
   
             <div class="flex flex-col gap-2">
               <div class="flex items-center justify-start gap-[12px]">
                 <img src="./imgs/HddNetwork.svg">
-                <h4 class="text-[24px]/[36px]">Networking</h4>
+                <h4 class="text-[20px]/[28px] md:text-[24px]/[36px]">Networking</h4>
               </div>
-              <p class="text-[18px]/[27px] text-justify">Connect with like-minded individuals, experts in the field, and potential collaborators. This Challenge is not just a competition; it's a community.</p>
+              <p class="md:text-[18px]/[27px] text-justify">Connect with like-minded individuals, experts in the field, and potential collaborators. This Challenge is not just a competition; it's a community.</p>
             </div>
   
             <div class="flex flex-col gap-2">
               <div class="flex items-center justify-start gap-[12px]">
                 <img src="./imgs/scan-text.svg">
-                <h4 class="text-[24px]/[36px]">Recognition</h4>
+                <h4 class="text-[20px]/[28px] md:text-[24px]/[36px]">Recognition</h4>
               </div>
-              <p class="text-[18px]/[27px] text-justify">The spotlight is on you! Earn recognition for your hard work, with exciting prizes and the chance to showcase your achievements to a broader audience.</p>
+              <p class="md:text-[18px]/[27px] text-justify">The spotlight is on you! Earn recognition for your hard work, with exciting prizes and the chance to showcase your achievements to a broader audience.</p>
             </div>
           </div>
         </div>
 
-        <div class="w-1/2 flex flex-col gap-4">
-          <h2 class="text-black text-[32px]/[48px] font-[600]">Purpose of <span id="atf" class="text-violet">ATF</span> Challenge</h2>
+        <div class="sm:w-1/2 flex flex-col gap-4">
+          <h2 class="text-black text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">Purpose of <span id="atf" class="text-violet">ATF</span> Challenge</h2>
           <div class="flex flex-col gap-6">
             <div class="flex items-start gap-[12px]" id="participate-content-first">
               <img src="./imgs/Ellipse 8.svg">
-              <p class="text-[18px]/[27px] text-justify">To empower students to create innovative solutions to problems in any area of their choice (particularly education, agriculture, health and energy) through the application of knowledge and skills gained in their areas of study.</p>
+              <p class="md:text-[18px]/[27px] text-justify">To empower students to create innovative solutions to problems in any area of their choice (particularly education, agriculture, health and energy) through the application of knowledge and skills gained in their areas of study.</p>
             </div>
             <div class="flex items-start gap-[12px]" id="participate-content-second">
               <img src="./imgs/Ellipse 8 3.svg">
-              <p class="text-[18px]/[27px] text-justify">To introduce students to AI as an emerging powerful technology that can be leveraged to create solutions relevant to Africa.</p>
+              <p class="md:text-[18px]/[27px] text-justify">To introduce students to AI as an emerging powerful technology that can be leveraged to create solutions relevant to Africa.</p>
             </div>
             <div class="flex items-start gap-[12px]" id="participate-content-third">
               <img src="./imgs/Ellipse 8.svg">
-              <p class="text-[18px]/[27px] text-justify">To foster teamwork among students across the different disciplines through collaboration</p>
+              <p class="md:text-[18px]/[27px] text-justify">To foster teamwork among students across the different disciplines through collaboration</p>
             </div>
             <div class="flex items-start gap-[12px]" id="participate-content-fourth">
               <img src="./imgs/Ellipse 8 3.svg">
-              <p class="text-[18px]/[27px] text-justify">encourage students to develop enthusiasm and practical entrepreneurial skills.</p>
+              <p class="md:text-[18px]/[27px] text-justify">encourage students to develop enthusiasm and practical entrepreneurial skills.</p>
             </div>
           </div>
         </div>
@@ -118,25 +119,25 @@
   </div>
 
   <!-- Eligibility section -->
-  <div class="bg-yellow px-[90px] py-[30px]">
-    <section class="max-w-[724px] mx-auto flex flex-col gap-4">
+  <div class="bg-yellow py-[30px] px-[1rem] md:px-[40px] lg:px-[90px]">
+    <section id="learn-more" class="max-w-[724px] mx-auto flex flex-col gap-4">
       <div class="flex flex-col gap-4">
-        <h4 class="text-black text-[32px]/[48px] font-[600]">Eligibility</h4>
-        <p class="text-[18px]/[27px] font-[500] text-justify">
+        <h4 class="text-black text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">Eligibility</h4>
+        <p class="md:text-[18px]/[27px] font-[500] text-justify">
           The challenge is open to all students – both undergraduate and graduate – enrolled as of the date of their submission in any degree programme.  Students must enter in teams of three to five individuals.  Multi-disciplinary teams are strongly encouraged. 
         </p>
       </div>
   
       <div class="flex flex-col gap-4">
-        <h4 class="text-black text-[32px]/[48px] font-[600]">Team Composition Requirements.</h4>
-        <p class="text-[18px]/[27px] font-[500] text-justify">
+        <h4 class="text-black text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">Team Composition Requirements.</h4>
+        <p class="md:text-[18px]/[27px] font-[500] text-justify">
           Teams should be multidisciplinary. (It is necessary that one or two members of the team has an intermediate to advanced level of experience in any general purpose programming language like Python, Ruby, C++, etc.)
         </p>
       </div>
   
       <div class="flex items-center justify-between">
-        <span class="text-[#fd1c13] text-[32px]/[48px] font-[600]">Deadline:</span>
-        <span class="text-[#50ae24] text-[32px]/[48px] font-[600]">January 31, 2024</span>
+        <span class="text-[#fd1c13] text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">Deadline:</span>
+        <span class="text-[#50ae24] text-[24px]/[30px] md:text-[32px]/[48px] font-[600]">January 31, 2024</span>
       </div>
   
       <a href="#" class="flex items-center justify-center text-white bg-violet inline-block w-[170px] h-[50px]">
@@ -146,36 +147,37 @@
   </div>
 
   <!-- About section -->
-
-  <div class="px-[90px] py-[20px] bg-[#f2f4f8]">
-    <section class="max-w-[748px] mx-auto flex flex-col gap-4">
-      <h2 class="text-black text-[46px]/[69px] font-[600] text-center">About</h2>
-      <h4 class="text-violet text-[32px]/[48px] font-[600] text-center">Who we are.</h4>
+  <div class="py-[20px] bg-[#f2f4f8] px-[1rem] md:px-[40px] lg:px-[90px]">
+    <section id="about-us" class="max-w-[748px] mx-auto flex flex-col gap-4">
+      <h2 class="text-black text-[24px]/[30px] md:text-[46px]/[69px] font-[600] text-center">About</h2>
+      <h4 class="text-violet text-[24px]/[30px] md:text-[32px]/[48px] font-[600] text-center">Who we are.</h4>
       <div class="flex flex-col gap-4">
-        <p class="font-[500] text-[18px]/[27px] text-justify">African Technology Forum (ATF) is a registered none-profit organization (NGO) in Ghana dedicated to the promotion of science and technology in Africa.  Founded in 1988, the organization has published pioneering publications in science and related fields and built a network of students and professionals in Africa, Europe, and the Americas.</p>
-        <p class="font-[500] text-[18px]/[27px] text-justify">The objective of the Challenge is to bring out the innovative and creative abilities in students and to encourage the application of acquired knowledge and skills to solve real world problems.  This year’s challenge will introduce students to AI technologies as one of the tools for solving local problems. </p>
-        <p class="font-[500] text-[18px]/[27px] text-justify">The 2024 ATF Challenge is being organized with support from the OpenAI Foundation</p>
+        <p class="font-[500] md:text-[18px]/[27px] text-justify">African Technology Forum (ATF) is a registered none-profit organization (NGO) in Ghana dedicated to the promotion of science and technology in Africa.  Founded in 1988, the organization has published pioneering publications in science and related fields and built a network of students and professionals in Africa, Europe, and the Americas.</p>
+        <p class="font-[500] md:text-[18px]/[27px] text-justify">The objective of the Challenge is to bring out the innovative and creative abilities in students and to encourage the application of acquired knowledge and skills to solve real world problems.  This year’s challenge will introduce students to AI technologies as one of the tools for solving local problems. </p>
+        <p class="font-[500] md:text-[18px]/[27px] text-justify">The 2024 ATF Challenge is being organized with support from the OpenAI Foundation</p>
       </div>
     </section>
   </div>
 
   <!-- Our partners -->
-  <div class="bg-yellow px-[90px] py-[50px]">
-    <section class="max-w-[648px] mx-auto">
-      <h2 class="text-black text-[46px]/[69px] font-[600] text-center">Our Partners</h2>
-      <div class="flex items-end justify-center gap-8">
-        <img src="./imgs/openai.png">
-        <p class="text-black">OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity</p>
+  <div class="bg-yellow py-[90px] px-[1rem] md:px-[40px] lg:px-[90px]">
+    <section id="sponsors" class="max-w-[648px] mx-auto flex flex-col gap-6">
+      <h2 class="text-black text-[24px]/[30px] md:text-[46px]/[69px] font-[600] text-center">Our Partners</h2>
+      <div class="flex flex-col items-center justify-center gap-4 md:flex-row md:items-end">
+        <img src="./imgs/openai.svg">
+        <p class="text-black md:text-[18px]/[27px]">OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity</p>
       </div>
     </section>
   </div>
+  <!-- sm:flex-row sm:items-end -->
 
-  <div class="bg-[#c3c7ce] px-[90px] py-[30px]">
+  <!-- footer -->
+  <div class="bg-[#c3c7ce] py-[30px] px-[1rem] md:px-[40px] lg:px-[90px]">
     <footer class="relative flex flex-col gap-[30px]">
       <div class="absolute top-0 left-0">
         <img src="./imgs/ATF 1.svg" alt="ATF Logo">
       </div>
-      <div class="flex items-center justify-center gap-[16px]">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-[16px]">
         <div class="flex flex-col items-center justify-center gap-[16px]">
           <div class="bg-[#e0e4eb] w-[70px] h-[70px] rounded-full"></div>
           <div class="flex flex-col items-center gap-[8px]">
@@ -211,9 +213,9 @@
         <p>copyright @ 2024</p>
         <div class="flex items-center justify-center gap-[16px] ">
             <img class="w-[24px]" src="./imgs/twitter.svg" alt="X Logo">
-            <img class="w-[24px]"  src="./imgs/facebook.svg" alt="Facebook Logo">
-            <img class="w-[24px]"  src="./imgs/instagram.svg" alt="Instagram Logo">
-            <img class="w-[24px]"  src="./imgs/linkedin.svg" alt="LinkedIn Logo">
+            <img class="w-[24px]" src="./imgs/facebook.svg" alt="Facebook Logo">
+            <img class="w-[24px]" src="./imgs/instagram.svg" alt="Instagram Logo">
+            <img class="w-[24px]" src="./imgs/linkedin.svg" alt="LinkedIn Logo">
         </div>
         <hr class="w-[280px] border-[4px] border-[#9747ff]">
       </div>
