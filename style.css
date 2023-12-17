@@ -32,3 +32,12 @@
 p.text-justify {
   text-justify: inter-word;
 }
+
+.grid-cont {
+  grid-template-areas:  "left right"
+                        "left rigth"
+                        "left right"
+                        "left right"
+                        "left right";
+  grid-auto-rows: auto;
+}
